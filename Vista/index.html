@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="rotated">MONEY MATE</h1>
+    <div class="background">
+        <img src="Imagenes/logosinfondo.png">
+        <form id="loginForm">
+            <label> CORREO
+                <input type="email" id="email" required>
+            </label>
+            <label> CONTRASEÑA
+                <input type="password" id="password" required>
+            </label>
+            <button type="submit" class="login scale-up-center">INICIAR SESION</button>
+            <button type="button" class="register scale-up-center">Registrarse
+            </button>
+
+        </form>
+    </div>
+</div>
+
+<!--este script maneja el login con el form y llama con una promesa a la ruta del login post que esta en server.js-->
+<script src="./Scripts/HandleLogin.js"></script>
+</body>
+</html>

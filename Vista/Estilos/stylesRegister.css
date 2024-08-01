@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(to right, #a7a7a6, #fff);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+    box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho y alto */
+}
+
+.imagen{
+    width: 60vh;
+    height: 90vh;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 90%;
+}
+
+.formulario{
+    width: 180vh;
+    height: 90vh;
+    margin: auto -70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-left: 150px;
+    margin-top: 80px !important;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+label{
+    margin-top: 20px;
+    width: 100%;
+}
+
+input{
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 20px!important;
+}
+
+.container{
+    width: 80% !important;
+    margin-left: 150px !important;
+}
+
+.col-3{
+    margin:40px 200px !important ;
+    border-radius: 10px; !important;
+    border: 1px solid #000; !important;
+    background: #000;
+    color: white;
+}
+
+.scale-up-center:hover{animation:scale-up-center forwards; }
+@keyframes scale-up-center{ 0%{transform:scale(1)} 100%{transform:scale(1.2)} }
+

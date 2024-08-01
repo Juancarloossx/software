@@ -1,0 +1,20 @@
+{
+  "name": "moneymatetests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chromedriver": "^126.0.5",
+    "selenium-webdriver": "^4.23.0"
+  },
+
+  "scripts": {
+    "start": "node app.js" // o el comando correcto para iniciar tu aplicación
+  }
+}
